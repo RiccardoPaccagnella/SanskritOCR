@@ -1,6 +1,6 @@
 # SanskritOCR
 
-With this code you can create puppet browser instance that navigates to `https://ocr.sanskritdictionary.com/`  and uploads the `.png` images that are in your folder `images` one by one as if it were a user.
+With this code you can create puppet browser instance that navigates to https://ocr.sanskritdictionary.com/  and uploads the `.png` images that are in your folder `images` one by one as if it were a user.
 Then, the puppet browser scrapes the result, appends it to the file `output.txt`, refreshes the page and starts again.
 In this way you can bypass the restriction of upload for a single page.
 
@@ -15,7 +15,7 @@ nmp install puppetteer
 ## Usage
 
 First you should split your PDF into single `.png` images.
-For instance, here: `https://www.ilovepdf.com/split_pdf`.
+For instance, here: https://www.ilovepdf.com/split_pdf.
 Move the split images into the folder `images`.
 Run:
 ```
